@@ -1453,6 +1453,7 @@ header .header-logo a {
   position: absolute;
   top: 50%;
   left: 9px;
+  
   margin-top: -1px;
 }
 #menu-nav-wrap .close-button span::before {
@@ -1508,7 +1509,7 @@ header .header-logo a {
 #home {
   width: 100%;
   height: 100%;
-  background-image: url("/images/digital_brain_artificial_intelligence.jpg");
+  background-image: url("/images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1520,12 +1521,18 @@ header .header-logo a {
 }
 #home .overlay {
   position: absolute;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
-  
+  opacity: .7;
+  background-image = url("/images/digital_brain_artificial_intelligence.jpg")
 }
 
 .home-content-table {
