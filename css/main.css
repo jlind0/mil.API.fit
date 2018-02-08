@@ -1508,8 +1508,7 @@ header .header-logo a {
 #home {
   width: 100%;
   height: 100%;
-  background-color: #151515;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url("/images/digital_brain_artificial_intelligence.jpg");
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1526,7 +1525,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   opacity: .2;
-  background-image: url("/images/digital_brain_artificial_intelligence.jpg");
+  
 }
 
 .home-content-table {
