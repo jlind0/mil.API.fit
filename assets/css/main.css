@@ -2968,7 +2968,7 @@
             font-weight: 400;
             color: #fff;
             line-height: 1em;
-            margin: 0 0 0.5em 0;
+            margin: 0 0 0.1em 0;
             padding: 0;
         }
     #banner h2 {
@@ -2977,6 +2977,14 @@
         width: 30%;
         font-weight: 600;
         padding-left: 7px;
+    }
+    #banner span {
+        font-size: 18px;
+        color: darkgreen;
+        width: 30%;
+        font-weight: 600;
+        padding-left: 7px;
+        margin-bottom:3em;
     }
     #banner img {
         width: 50%;
@@ -2997,6 +3005,9 @@
     #banner h2 {
         width: 33%
     }
+    #banner span {
+        width: 33%
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -3006,6 +3017,9 @@
     }
 
     #banner h2 {
+        width: 35%
+    }
+    #banner span {
         width: 35%
     }
 }
@@ -3019,7 +3033,9 @@
             #banner h2 {
                 width: 37%
             }
-
+            #banner span {
+                width: 37%
+            }
 		}
 @media screen and (max-width: 650px) {
 
@@ -3028,6 +3044,9 @@
     }
 
     #banner h2 {
+        width: 40%
+    }
+    #banner span {
         width: 40%
     }
 }
@@ -3040,6 +3059,9 @@
     #banner h2 {
         width: 45%
     }
+    #banner span {
+        width: 45%
+    }
 }
 @media screen and (max-width: 550px) {
 
@@ -3048,6 +3070,9 @@
     }
 
     #banner h2 {
+        width: 48%
+    }
+    #banner span {
         width: 48%
     }
 }
@@ -3060,6 +3085,9 @@
     #banner h2 {
         width: 54%
     }
+    #banner span {
+        width: 54%
+    }
 }
 @media screen and (max-width: 450px) {
 
@@ -3070,6 +3098,9 @@
     #banner h2 {
         width: 57%
     }
+    #banner span {
+        width: 57%
+    }
 }
 	@media screen and (max-width: 400px) {
 
@@ -3078,6 +3109,9 @@
         }
 
         #banner h2 {
+            width: 65%
+        }
+        #banner span {
             width: 65%
         }
 	}
